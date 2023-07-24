@@ -15,7 +15,6 @@ public class SetterInjectedController {
     @Autowired
     public void setGreetingService(GreetingService greetingService) {
         System.out.println("SetterInjectedController.setGreetingService");
-        this.greetingService = greetingService;
     }
 
     public String sayHello(){
