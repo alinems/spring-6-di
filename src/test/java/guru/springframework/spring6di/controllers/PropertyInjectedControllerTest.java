@@ -13,5 +13,6 @@ class PropertyInjectedControllerTest {
     @Test
     void sayHello() {
         System.out.println(propertyInjectedController.sayHello());
+
     }
 }
